@@ -1,5 +1,5 @@
 #WeChat.NET
-**WeChat.NET**是微信公共平台消息接口服务中间件
+**WeChat.NET**是微信公共平台 .NET SDK
 
 ##环境：
 - .NET Framework 4.0;
@@ -23,4 +23,6 @@
 1. 主动向用户推送消息，由于微信官方API中不提供主动向用户推送消息API，所以该接口模拟登陆微信公众平台，使用实时消息功能发送单条信息，可循环实现群发功能；
 
 ##捐赠：
+如果您觉得这个项目对您有帮助，非常感谢你的捐赠
+
 [![捐赠WeChat.NET](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/xiongpq)
