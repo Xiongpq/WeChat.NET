@@ -21,3 +21,6 @@
 
 ##主要功能：
 1. 主动向用户推送消息，由于微信官方API中不提供主动向用户推送消息API，所以该接口模拟登陆微信公众平台，使用实时消息功能发送单条信息，可循环实现群发功能；
+
+##捐赠：
+[![捐赠WeChat.NET](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/xiongpq)
