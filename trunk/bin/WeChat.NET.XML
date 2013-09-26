@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeChat.NET</name>
+    </assembly>
+    <members>
+        <member name="T:WeChat.NET.ErrorCode">
+            <summary>
+            记录所有Web服务的错误信息
+            示例：10123
+            1系统错误；2为服务级错误
+            01服务模块代码
+            	01 	
+            23具体错误代码
+            </summary>
+        </member>
+        <member name="F:WeChat.NET.ErrorCode.UnknownError">
+            <summary>
+            未知错误
+            </summary>
+        </member>
+        <member name="F:WeChat.NET.ErrorCode.CustomErrorWithParam">
+            <summary>
+            错误:{0}
+            </summary>
+        </member>
+        <member name="F:WeChat.NET.ErrorCode.SystemError">
+            <summary>
+            系统错误
+            </summary>
+        </member>
+        <member name="F:WeChat.NET.ErrorCode.ParameterError">
+            <summary>
+            参数错误
+            </summary>
+        </member>
+        <member name="F:WeChat.NET.ErrorCode.LoginFailed">
+            <summary>
+            登录失败
+            </summary>
+        </member>
+        <member name="T:WeChat.NET.ErrorCodeDescriptionAttribute">
+            <summary>
+            ErrorCode的错误描述
+            </summary>
+        </member>
+        <member name="T:WeChat.NET.WeChatAPI">
+            <summary>
+            微信公众API
+            </summary>
+        </member>
+        <member name="T:WeChat.NET.WeChatMp">
+            <summary>
+            微信公众平台
+            </summary>
+        </member>
+        <member name="M:WeChat.NET.WeChatMp.Login">
+            <summary>
+            登录 用户名、密码在App.config中配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.NET.WeChatMp.SendMessage(System.Collections.Generic.IEnumerable{System.String},System.String)">
+            <summary>
+            发送消息
+            </summary>
+            <param name="toFakeIDs">用户ID列表，此ID可通过GetAllContact方法获取</param>
+            <param name="content">消息内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.NET.WeChatMp.GetAllContact(System.String,System.Int32)">
+            <summary>
+            获取用户，从用户管理页面
+            </summary>
+            <param name="groupid">分组ID，0为未分组，分组ID请在用户管理URL的groupid中获取</param>
+            <param name="pageSize">分页大小</param>
+            <returns></returns>
+        </member>
+        <member name="P:WeChat.NET.SystemInfo.MpUserName">
+            <summary>
+            微信公众平台用户名
+            </summary>
+        </member>
+        <member name="P:WeChat.NET.SystemInfo.MpPwd">
+            <summary>
+            微信公众平台密码
+            </summary>
+        </member>
+    </members>
+</doc>
